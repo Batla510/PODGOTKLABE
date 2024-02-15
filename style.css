@@ -123,6 +123,10 @@ header{
     color: rgb(44, 24, 24);
     font-size: 20px;
 }
+.btn__reg:hover{
+    background-color: rgb(44, 24, 24);
+    color: rgb(248, 147, 53);
+}
 .regform__row{
     display: flex;
     justify-content: center;
@@ -135,13 +139,25 @@ header{
     background-color: rgb(235, 158, 158);
     border: 2px solid black;
 }
-/* .pass__div{
-    display: flex;
-    justify-content: center;
-    padding-top: 5px;
+
+.login_form{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    background-color: rgb(235, 158, 158);
+    border: 2px solid black;
 }
-.email__div{
+.loginform__row{
     display: flex;
     justify-content: center;
-    padding-top: 5px;
-} */
+}
+.btn__login{
+    margin-top: 20px;
+    background-color: rgb(214, 121, 117);
+    color: rgb(44, 24, 24);
+    font-size: 20px;
+}
+.btn__login:hover{
+    background-color: rgb(44, 24, 24);
+    color: rgb(214, 121, 117);
+}
