@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(199, 168, 228);
+    padding: 20px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-right: 25px;
+}
+
+.menu__item{
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+    border-bottom: 2px solid transparent;
+}
+.menu__item:hover{
+    color: rgb(255, 3, 3);
+    border-bottom: 2px solid rgb(255, 3, 3);
+}
+.row{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0 ;
+}
+
+.product__card{
+    padding: 30px;
+    background-color: bisque;
+    color: rgb(98, 98, 195);
+}
+.title{
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(236, 92, 92);
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+
+.price{
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: rgb(227, 138, 138);
+    color: rgb(118, 66, 66);
+    border: none;
+    padding: 5px 15px;
+}
+.btn:hover{
+    background-color:rgb(118, 66, 66) ;
+    color: rgb(227, 138, 138);
+}
+.cart__card{
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+
+}
+.cart__title{
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(215, 107, 107);
+    margin-right: 30px;
+}
+.cart__title::before{
+    content: 'название товара:';
+    color: rgb(217, 120, 120);
+    font-size: 20px;
+}
+.cart__price{
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(220, 112, 112);
+    margin-right: 30px;
+}
+.cart__price::before{
+    content: 'стоимость:';
+    font-size: 20px;
+    color: rgb(208, 106, 106);
+}
+.total__price{
+    text-align: center;
+    font-size: 36px;
+    color: #000;
+    background-color: rgb(235, 137, 137);
+    padding: 50px;
+}
+.container{
+    height: 100px;
+    width: 20px;
+    background-color: red;
+    display: contents;
+}
+
+.input{
+    margin-top: 20px;
+}
+.btn__reg{
+    margin-top: 20px;
+    background-color: rgb(248, 147, 53);
+    color: rgb(44, 24, 24);
+    font-size: 20px;
+}
+.regform__row{
+    display: flex;
+    justify-content: center;
+}
+
+.regform{
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(235, 158, 158);
+    border: 2px solid black;
+}
+/* .pass__div{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.email__div{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+} */
